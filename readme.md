@@ -1,5 +1,6 @@
 #[Tp Nuestro Restó, con estructura html, css and responsive ]
 <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"><img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+
 #Tp Nuestro Restó, Digital House C21    
             <figure><img src="./mock/boceto-carta.png" alt="entradas"></figure>
 
