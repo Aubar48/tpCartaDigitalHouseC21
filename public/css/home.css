@@ -1,0 +1,59 @@
+/*HEADER*/
+.home__header {
+  border-bottom: solid 1px silver;
+  padding: 30px 10px;
+}
+/*ASIDE*/
+.home__aside {
+  padding: 30px 10px;
+}
+.home__aside nav ul li {
+  line-height: 30px;
+}
+
+/*MAIN*/
+.home__main {
+  padding: 30px 10px;
+}
+.home__main h3 {
+  line-height: 40px;
+  font-weight: 900;
+}
+
+.home__main__section--article {
+  margin: 0 0 30px 20px;
+}
+.home__main__section__article h4 {
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.home__main__section--back {
+  margin: 40px 0;
+  display: inline-block;
+  font-weight: 700;
+}
+
+/*FOOTER*/
+.home__footer {
+  background-color: gainsboro;
+  padding: 10px;
+  float: left;
+  width: 100%;
+  overflow: hidden;
+}
+.home__footer--logo {
+  width: 50%;
+}
+.home__footer img {
+  float: left;
+  width: 150px;
+}
+.home__footer--nav {
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+.home__footer--nav a {
+  color: white;
+  text-shadow: 1px 1px 1px #000000;
+}
