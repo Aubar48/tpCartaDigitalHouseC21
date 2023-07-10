@@ -1,11 +1,19 @@
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 980px;
+  margin: 0 auto;
+}
 /*HEADER*/
 .home__header {
   border-bottom: solid 1px silver;
-  padding: 30px 10px;
+  padding: 30px 20px;
+  width: 100%;
 }
 /*ASIDE*/
 .home__aside {
-  padding: 30px 10px;
+  padding: 30px 10px 0 20px;
+  width: 100%;
 }
 .home__aside nav ul li {
   line-height: 30px;
@@ -13,7 +21,8 @@
 
 /*MAIN*/
 .home__main {
-  padding: 30px 10px;
+  padding: 30px 20px;
+  width: 100%;
 }
 .home__main h3 {
   line-height: 40px;
@@ -39,21 +48,50 @@
   padding: 10px;
   float: left;
   width: 100%;
-  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .home__footer--logo {
   width: 50%;
 }
 .home__footer img {
-  float: left;
   width: 150px;
 }
 .home__footer--nav {
-  width: 50%;
-  float: left;
   text-align: right;
 }
 .home__footer--nav a {
   color: white;
   text-shadow: 1px 1px 1px #000000;
+}
+@media (min-width: 481px) {
+  /*HEADER*/
+  .home__header {
+    padding: 30px 0;
+    margin-bottom: 30px;
+  }
+  .home__aside nav ul li {
+    font-weight: 700;
+  }
+  /*ASIDE*/
+  .home__aside {
+    padding: 0 10px 0 0;
+    width: 30%;
+  }
+  .home__main h3 {
+    line-height: 20px;
+    font-weight: 900;
+  }
+  /*MAIN*/
+  .home__main {
+    padding: 0 20px;
+    width: 70%;
+    border-left: solid 1px silver;
+  }
+  /*FOOTER*/
+  .home__footer {
+    margin-top: 30px;
+    padding: 20px;
+  }
 }
